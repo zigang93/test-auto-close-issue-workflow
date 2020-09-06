@@ -2,6 +2,7 @@ name: Close issues related to a merged pull request from dev branches.
 
 on:
   pull_request:
+    types: [closed]
     branches:
       - dev
 
